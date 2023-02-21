@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio 2</title>
+    <link rel="stylesheet" href="/Portfolio/Port-2style.css">
+</head>
+<script>
+    function openNav() {
+     document.getElementById("myNav")
+     .style.width = "50%";j
+    }
+    
+    function closeNav() {
+     document.getElementById("myNav")
+     .style.width = "0%";
+    }
+</script>
+<body>
+    <section class="main" id="home">
+        <nav>
+            <header><h1>Port<span>folio</span></h1></header>
+
+            <ul class="navbar" id="myNav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer" class="btn">Contact Me</a></li>
+            </ul>
+            <div id="menu" onclick="openNav()"><</div>
+        </nav>
+
+        <div class="intro">
+            <h3>Hi there,</h3>
+            <h1>I am <span>Jawad</span></h1>
+            <p>A Frontend Developer & Web Designer
+                <!-- Freelance Python Data Scienctist -->
+            </p>
+
+            <div class="input-box">
+                <input type="text" placeholder="Say Hi!">
+                <a href=""><button>Email</button></a>
+            </div>
+
+            <button id="cv">Download CV</button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="profile-pic">
+                <img src="/assets/jawad.jpg" alt="Profile Picture" title="my profile picture">
+            </div>
+
+            <div class="about-content">
+                <h1>Who Am I ?</h1>
+                <p>
+                    My name is Nassam Mohammed Jawad. <br>
+                    I am a Frontend Developer and Web Designer. <br>
+                    I have a strong passion for building websites and web applications. <br>
+                    Having experience in HTML & CSS, TAILWIND CSS, BOOTSTRAP and SASS <br>
+                    I can build highly scalable and modern web2 and web3 websites. <br>
+                    Using JavaScript and Python, I can build fully functioning websites. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1>What I Have To Offer</h1>
+        <div class="services-container">
+            <div class="service-box">
+                <h2>Frontend Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi?
+                    Ad omnis at corporis facere voluptatibus sequi consequatur. 
+                    Doloremque sed dolorum quia minus reprehenderit veritatis! Dolore 
+                    suscipit inventore tempore unde.
+                </p>
+            </div>
+    
+            <div class="service-box">
+                <h2>Web Applications Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi?
+                    Ad omnis at corporis facere voluptatibus sequi consequatur. 
+                    Doloremque sed dolorum quia minus reprehenderit veritatis! Dolore 
+                    suscipit inventore tempore unde.
+                </p>
+            </div>
+    
+            <div class="service-box">
+                <h2>Python Data Science and Machine Learning</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi?
+                    Ad omnis at corporis facere voluptatibus sequi consequatur. 
+                    Doloremque sed dolorum quia minus reprehenderit veritatis! Dolore 
+                    suscipit inventore tempore unde.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h1>My Skills</h1>
+        <div class="skills-container">
+            <div class="skill-box">
+                <img src="/assets/html5.png" alt="">
+            </div>
+
+            <div class="skill-box">
+                <img src="/assets/css.png" alt="">
+            </div>
+
+            <div class="skill-box">
+                <img src="/assets/js.png" alt="">
+            </div>
+
+            <div class="skill-box">
+                <img src="/assets/python.jfif" alt="">
+            </div>
+
+            <div class="skill-box">
+                <img src="/assets/react.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>My Completed Projects</h1>
+        <div class="projects-container">
+            <div class="projects-box">
+                <h2>Animated Portfolio Website </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi?
+                    Ad omnis at corporis facere voluptatibus sequi consequatur. 
+                </p>
+                <a href="" id="visit">Visit Site</a>
+            </div>
+
+            <div class="projects-box">
+                <h2>Responsive Dashboard Website </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi?
+                    Ad omnis at corporis facere voluptatibus sequi consequatur. 
+                </p>
+                <a href="" id="visit">Visit Site</a>
+            </div>
+
+            <div class="projects-box">
+                <h2>Facebook Clone</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, excepturi?
+                    Ad omnis at corporis facere voluptatibus sequi consequatur. 
+                </p>
+                <a href="" id="visit">Visit Site</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer" id="footer">
+        <h3>Nassam Mohammed Jawad</h3>
+        <address>
+            Email: jawadnassam264@gmail.com <br>
+            Phone: +233 594731393 <br>
+            Ghana
+        </address>
+
+        <div class="social">
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="">LikedIn</a>
+            <a href="">GitHub</a>
+            <a href="">WhatsApp</a>
+        </div>
+
+        <p>&copy; Nassam Mohammed Jawad - 2023</p>
+
+        <a href="#home" id="top">Top</a>
+    </section>
+</body>
+</html>
